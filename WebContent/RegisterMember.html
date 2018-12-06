@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Members</title>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+<h1>My Committee</h1>
+<h3 style="background-color:red;color:red;">c</h3>
+<div id="content">
+<div id="navigation">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="RegisterMember.html">Add Member</a></li>
+<li><a href="ShowAllMembers">Show All Members</a></li>
+<li><a href="SearchCustomer">Make Payment</a></li>
+<li><a href="ShowAllCommittees">Show All Committees</a></li>
+<li><a href="ShowRemainingMembers">Get Remaining Members</a></li>
+<li><a href="NewComittee.html">Start A Committee</a></li>
+<li><a href="SelectComitee">Start Bidding</a></li>
+<li><a href="SearchProfile">Profile Search</a></li>
+<li><a href="SelectAccount">Get An Account</a></li>
+</ul>
+</div>
+<div id="banner" class="inputform">
+<h2 class="design">Register Member</h2>
+<form action="RegisterServlet" method="post">
+<table>
+<tr><td>Name:</td><td><input type="text" name="name" required/></td></tr>
+<tr><td>Village:</td><td><select name="village" required>
+<option>Select-Village</option>
+<option>Malpur</option>
+<option>Basona</option>
+<option>Terasi Piparia</option>
+<option>Dih Piparia</option> 
+<option>Karari Piparia</option>
+<option>Dira Piparia</option>
+<option>Kanharpur</option>
+<option>Walipur</option>
+<option>Chetan Tola</option>
+<option>Khutaha Dih</option>
+<option>Jaitpur</option>
+<option>Barahiya</option>
+<option>Lakhisarai</option>
+</select></td></tr>
+<tr><td>Contact:</td><td><input type="text" name="contact"/></td></tr>
+<tr><td>Opening Balance:</td><td><input type="text" name="balance" required/></td></tr>
+<tr><td></td><td colspan="2"><input id="submit" type="submit" value="Add Member"/>
+<input id="reset" type="reset" value="Clear"/>
+</td></tr>
+</table>
+</form>
+</div>
+</div>
+<p style="margin-top:50px;background-color:red;color:white;text-align:center">&copy;Copyright 2018. PRIYANJAY SINGH All rights reserved!</p>
+</body>
+</html>
