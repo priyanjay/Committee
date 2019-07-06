@@ -16,6 +16,6 @@ public class Member {
 		this.contact=contact;
 	}
 	public Member() {
-		
+		Some random thing
 	}
 }
