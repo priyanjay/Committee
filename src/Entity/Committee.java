@@ -11,5 +11,5 @@ ArrayList<Member> memberList=null;
 ArrayList<Member> takenCommittee=null;
 ArrayList<Member> remainingCommittee=null;
 public int remaining=20;
-public String test=null;
+public String testi=null;
 }
